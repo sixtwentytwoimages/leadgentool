@@ -1,0 +1,14 @@
+{
+  "name": "fb-keyword-monitor",
+  "version": "1.0.0",
+  "description": "Keyword scanner for Facebook groups in Docker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.7.4",
+    "dotenv": "^16.0.3",
+    "googleapis": "^105.0.0"
+  }
+}
